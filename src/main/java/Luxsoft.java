@@ -1,8 +1,10 @@
+import Service.DriverService;
+
 import java.io.*;
 
 public class Luxsoft {
     public static void main(String[] args) throws IOException {
-        Driverlogic driverlogic = new Driverlogic();
+        DriverService driverlogic = new DriverService();
         driverlogic.getAverageVowel();
         }
 

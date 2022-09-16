@@ -1,4 +1,5 @@
 import Model.Data;
+import Service.DriverService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +16,7 @@ import java.util.Set;
 public class MainTest {
 
     @InjectMocks
-    Driverlogic drivelogic = new Driverlogic();
+    DriverService drivelogic = new DriverService();
 
 
     @Test
